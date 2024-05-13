@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <parameter name="input" value="randomInput" />
+    <test name="Parameterized Test">
+        <classes>
+            <class name="org.domus.SearchTest">
+                <methods>
+                    <include name="shouldRedirectToDetailedSearchPage" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
